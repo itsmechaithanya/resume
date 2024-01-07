@@ -1,0 +1,27 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#portfolio {
+  padding: 20px;
+}
+
+.project {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.project img {
+  max-width: 200px;
+  margin-right: 20px;
+}
+
+.project-details {
+  flex-grow: 1;
+}
+
+#portfolio h2 {
+  color: #2196F3;
+}

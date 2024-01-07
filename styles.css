@@ -1,0 +1,91 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0%;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 0;
+}
+
+header {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px;
+}
+
+
+  .ok {
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center items vertically */
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .ok img {
+    max-width: 200px; /* Set a maximum width for the image */
+    margin-right: 20px; /* Add some space between the image and text */
+  }
+  .nav-wrapper {
+
+    padding-left: 10px;
+  }
+
+.cta-button {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#portfolio {
+  padding: 10px;
+}
+
+#portfolio {
+  padding: 10px;
+}
+.project {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.project img {
+  max-width: 200px;
+  margin-right: 20px;
+}
+
+#contact{
+
+  /* label color */
+   .input-field label {
+    color: #000;
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+    color: #000;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* valid color */
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* invalid color */
+  .input-field input[type=text].invalid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #000;
+  }
+       
+}
+
